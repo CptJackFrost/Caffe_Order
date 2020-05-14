@@ -1,0 +1,35 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">Caffe Order</string>
+    <string name="logo_description">Логотип кафе</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="hint_username">Введите имя</string>
+    <string name="hint_password">Введите пароль</string>
+    <string name="button_create_order">Сделать заказ</string>
+    <string name="toast_warning_fill">Все полня должны быть заполнены</string>
+    <string name="ask_order">Привет, %s! Что будете заказывать?</string>
+    <string name="ask_additions">Что добавить в ваш %s?</string>
+    <string name="tea">Чай</string>
+    <string name="coffee">Кофе</string>
+    <string name="additions">Что добавить в Ваш чай?</string>
+    <string name="milk">Молоко</string>
+    <string name="sugar">Сахар</string>
+    <string name="lemon">Лимон</string>
+    <string name="chooseDrink">Выберите тип напитка</string>
+    <string name="sendOrderButton">Кнопка отправить заказ</string>
+    <string name="default_name">Клиент</string>
+    <string name="default_password">Пароль</string>
+    <string name="full_order">Имя: %s\nПароль: %s\nНапиток: %s %s\nНеобходимые добавки: %s</string>
+
+    <string-array name="coffee_options" android:textColor="@color/white">
+        <item textColor="#ffffff">Эспрессо</item>
+        <item textColor="#ffffff">Латте</item>
+        <item textColor="#ffffff">Американо</item>
+    </string-array>
+
+    <string-array name="tea_options" android:textColor="@color/white">
+        <item textColor="#ffffff">Черный</item>
+        <item textColor="#ffffff">Зеленый</item>
+        <item textColor="#ffffff">Красный</item>
+    </string-array>
+
+</resources>
